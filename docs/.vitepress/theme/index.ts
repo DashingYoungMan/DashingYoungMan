@@ -1,5 +1,4 @@
 import DefaultTheme from 'vitepress/theme'
-import { useLive2d } from 'vitepress-theme-website'
 import mediumZoom from 'medium-zoom'
 import { onMounted, watch, nextTick } from 'vue'
 import { useRoute } from 'vitepress'
@@ -12,25 +11,7 @@ export default {
         app.component('MyButton', MyButton)
     },
     setup() {
-        useLive2d({
-            model: {
-                url: 'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/bilibili-22/index.json',
-            },
-            display: {
-                position: 'right',
-                width: '150px',
-                height: '300px',
-                xOffset: '35px',
-                yOffset: '5px'
-            },
-            mobile: {
-                show: true
-            },
-            react: {
-                opacity: 0.8
-            }
-        })
-
+        
         const route = useRoute()
         
         const initZoom = () => {

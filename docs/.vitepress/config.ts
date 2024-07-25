@@ -5,9 +5,6 @@ export default defineConfig({
   description: "个人博客",
   base: '/DashingYoungMan/',
   lang: 'zh-CN',
-  head: [
-    ['script', { src: '/DashingYoungMan/live2d.js' }]
-  ],
   themeConfig: {
     // 导航栏
     nav: [
