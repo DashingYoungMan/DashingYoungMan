@@ -21,6 +21,7 @@ export default defineConfig({
         items: [
           { text: '快速开始', link: '/page01' },
           { text: 'Vscode插件开发', link: '/page02' },
+          { text: 'Git的使用', link: '/page03' },
         ]
       }
     ],
