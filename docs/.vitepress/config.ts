@@ -9,7 +9,13 @@ export default defineConfig({
     // 导航栏
     nav: [
       { text: '首页', link: '/' },
-      { text: 'Vscode插件开发', link: '/page02' }
+      { text: 'Vscode插件开发', link: '/page02' },
+      {
+        text: 'Java笔记', items: [
+          { text: 'cglib动态代理', link: '/java/page01' },
+          { text: 'java定时任务', link: '/java/page02' },
+        ]
+      }
     ],
 
     // 侧边栏
@@ -22,6 +28,12 @@ export default defineConfig({
           { text: '快速开始', link: '/page01' },
           { text: 'Vscode插件开发', link: '/page02' },
           { text: 'Git的使用', link: '/page03' },
+          {
+            text: 'Java笔记', items: [
+              { text: 'cglib动态代理', link: '/java/page01' },
+              { text: 'java定时任务', link: '/java/page02' },
+            ]
+          },
         ]
       }
     ],
