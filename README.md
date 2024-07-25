@@ -18,7 +18,7 @@
 - 暂无
 
 ### 关于我
-- [技术笔记](https://dashingyoungman.github.io/DashingYoungMan/)
+- [个人博客](https://dashingyoungman.github.io/DashingYoungMan/)
 - [CSDN](https://blog.csdn.net/qq_46183012/)
 
 
