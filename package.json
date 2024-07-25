@@ -1,0 +1,26 @@
+{
+  "name": "DashingYoungMan",
+  "version": "1.0.0",
+  "description": "个人博客",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [
+    "blog",
+    "DashingYoungMan"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DashingYoungMan/DashingYoungMan.git"
+  },
+  "author": "DashingYoungMan",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.3.1"
+  }
+}
