@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "个人博客",
   description: "个人博客",
+  base: '/DashingYoungMan/',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
