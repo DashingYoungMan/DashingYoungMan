@@ -23,3 +23,7 @@
 
 
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=DashingYoungMan)](https://github.com/DashingYoungMan)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DashingYoungMan&layout=compact&theme=tokyonight)
+
+![Visitor Count](https://profile-counter.glitch.me/DashingYoungMan/count.svg)
