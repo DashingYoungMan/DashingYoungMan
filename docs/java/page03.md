@@ -1,7 +1,7 @@
 # IO
 
 ## 创建文件
-使用`new File`创建单个文件
+使用`new File`创建单个文件😜
 ```java
 String filePath = "e:\\news1.txt";
 File file = new File(filePath);
@@ -9,7 +9,7 @@ file.createNewFile();
 System.out.println("文件创建成功");   
 ```
 
-使用`new File(File parentFile,String child)`创建父目录+子路径文件
+使用`new File(File parentFile,String child)`创建父目录+子路径文件😜
 ```java
 File parentFile = new File("e:\\");
 String fileName = "news2.txt";
@@ -177,7 +177,7 @@ fileReader.close();
 ```
 
 ## 字符输出流(FileWriter)
-一定要关闭流,或者flush(),才能真正把数据写入文件
+一定要关闭流,或者flush(),才能真正把数据写入文件🧐
 ```java
 // 文件路径
 String path = "e:/haha.txt";
@@ -238,7 +238,7 @@ writer.close();
 ```
 
 ## 拷贝文件
-这种方式是不是比上面的要简洁的多
+这种方式是不是比上面的要简洁的多😜
 ```java
 // 文件路径
 String p1 = "e:/hi.txt";
@@ -260,7 +260,7 @@ reader.close();
 ```
 
 ## BufferedInputStream和BufferedOutputStream
-使用方法跟上面的差不多,就直接用拷贝文件的例子来演示一下
+使用方法跟上面的差不多,就直接用拷贝文件的例子来演示一下😜
 ```java
 // 文件路径
 String p1 = "e:/bg.jpg";
@@ -281,7 +281,7 @@ bis.close();
 ```
 
 ## 序列化保存数据(ObjectOutputStream)
-保存值和数据类型称为序列化,把保存的值和数据类型恢复成原来的样子称为反序列化
+保存值和数据类型称为序列化,把保存的值和数据类型恢复成原来的样子称为反序列化🧐
 > 序列化注意事项:
 >
 > 1、读写顺序要一致
@@ -322,7 +322,7 @@ System.out.println("数据保存完毕(序列化形式)");
 ```
 
 ## 反序列化读取数据(ObjectInputStream)
-读取(反序列化)的顺序需要和你保存数据(序列化)的顺序一致,否则会出现异常
+读取(反序列化)的顺序需要和你保存数据(序列化)的顺序一致,否则会出现异常😜
 ```java
 // 序列化文件的路径
 String path = "e:/data.dat";
@@ -358,7 +358,7 @@ System.out.println(System.out.getClass());
 ```
 
 ## InputStreamReader
-默认情况下,读取文件是按照utf-8编码读取,如果文件是其他编码保存的就会出现乱码问题,所以需要将字节流转换成字符流并指定编码格式
+默认情况下,读取文件是按照utf-8编码读取,如果文件是其他编码保存的就会出现乱码问题,所以需要将字节流转换成字符流并指定编码格式😜
 ```java
 String path = "e:/hello.txt";
 // 将字节流转换成字符流并指定编码,指定编码为GBK
@@ -377,7 +377,7 @@ br.close();
 ```
 
 ## OutputStreamWriter
-同样输出也可以指定编码格式
+同样输出也可以指定编码格式😜
 ```java
 String path = "e:/hi.txt";
 BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(path), "gbk"));

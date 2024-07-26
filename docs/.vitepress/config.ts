@@ -16,6 +16,7 @@ export default defineConfig({
           { text: '定时任务', link: '/java/page02' },
           { text: 'IO', link: '/java/page03' },
           { text: '网络编程', link: '/java/page04' },
+          { text: 'JDBC', link: '/java/page05' },
         ]
       }
     ],
@@ -36,6 +37,7 @@ export default defineConfig({
               { text: '定时任务', link: '/java/page02' },
               { text: 'IO', link: '/java/page03' },
               { text: '网络编程', link: '/java/page04' },
+              { text: 'JDBC', link: '/java/page05' },
             ]
           },
         ]
