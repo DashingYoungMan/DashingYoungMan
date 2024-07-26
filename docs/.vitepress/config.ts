@@ -15,6 +15,7 @@ export default defineConfig({
           { text: 'cglib动态代理', link: '/java/page01' },
           { text: '定时任务', link: '/java/page02' },
           { text: 'IO', link: '/java/page03' },
+          { text: '网络编程', link: '/java/page04' },
         ]
       }
     ],
@@ -34,6 +35,7 @@ export default defineConfig({
               { text: 'cglib动态代理', link: '/java/page01' },
               { text: '定时任务', link: '/java/page02' },
               { text: 'IO', link: '/java/page03' },
+              { text: '网络编程', link: '/java/page04' },
             ]
           },
         ]
